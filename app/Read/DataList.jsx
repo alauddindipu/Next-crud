@@ -24,6 +24,17 @@ export default async function DataList() {
 
     let datas = await getData();
 
+
+    const handleDelete = (data) => {
+
+        alert("Hello! an alert box!");
+        // axios.delete('https://crud.teamrabbil.com/api/v1/DeleteProduct' + "/" + data._id);
+
+
+        //setPosts(posts.data.filter((p) => p._id !== post._id));
+    };
+
+
     return (
         <div className="container mx-auto">
 
@@ -78,7 +89,7 @@ export default async function DataList() {
                                     <td className="border border-slate-300">
                                         <button>Edit </button>
                                         <button
-                                            onClick={() => handleDelete(post)}
+                                            onClick={() => handleDelete(data)}
                                             className="">
                                             Delete
                                         </button></td>

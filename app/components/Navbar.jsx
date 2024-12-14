@@ -4,10 +4,10 @@ const Navbar = () => {
     return (
         <div>
             <nav>
-            <h1>        Home of CRUD
-        </h1>
-        <Link href="/">Home Menu</Link> 
-        <Link href="/Create">Create Menu</Link> 
+                <u>       <b><p>CRUD Operation</p></b>
+                </u>
+                <Link href="/Read">Home Menu</Link>
+                <Link href="/CreateOption/Create">Create Menu</Link>
             </nav>
         </div>
     );
