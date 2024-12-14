@@ -1,5 +1,5 @@
 
-import DataList from "./Create/DataList";
+import DataList from "./Read/DataList";
 
 export default function Home() {
   return (
